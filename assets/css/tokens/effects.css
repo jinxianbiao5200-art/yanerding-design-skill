@@ -1,0 +1,13 @@
+:root {
+  --shadow-card: 0 2px 10px rgba(42, 8, 16, 0.22);
+  --shadow-hover: 0 14px 34px rgba(42, 8, 16, 0.36);
+  --shadow-modal: 0 24px 80px rgba(26, 6, 8, 0.62);
+  --glow-gold: 0 0 16px rgba(201, 169, 110, 0.24);
+  --focus-ring: 0 0 0 2px rgba(201, 169, 110, 0.58);
+  --ease-standard: 0.3s ease;
+  --ease-slow: 0.48s ease;
+  --bg-ambient:
+    radial-gradient(circle at 18% 8%, rgba(201, 169, 110, 0.13), transparent 30%),
+    radial-gradient(circle at 82% 72%, rgba(201, 169, 110, 0.08), transparent 34%),
+    linear-gradient(180deg, var(--burgundy-700), var(--burgundy-900));
+}

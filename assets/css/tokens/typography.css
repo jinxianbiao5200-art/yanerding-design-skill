@@ -1,0 +1,47 @@
+:root {
+  --font-cn: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  --font-display: "Cormorant Garamond", "Garamond", "Times New Roman", serif;
+  --font-script: "Parisienne", cursive;
+
+  --font-brand-name: var(--font-cn);
+  --font-product-mark: var(--font-cn);
+  --font-price: var(--font-display);
+
+  --type-display-size: clamp(40px, 6vw, 76px);
+  --type-display-line: 1.08;
+  --type-title-size: clamp(28px, 3.6vw, 44px);
+  --type-title-line: 1.25;
+  --type-section-size: 24px;
+  --type-card-title-size: 18px;
+  --type-body-size: 15px;
+  --type-small-size: 12px;
+
+  --tracking-brand: 0.15em;
+  --tracking-title: 0.08em;
+  --tracking-eyebrow: 0.28em;
+  --tracking-button: 0.12em;
+  --body-line: 1.82;
+}
+
+.yed-type-cn {
+  font-family: var(--font-cn);
+  line-height: var(--body-line);
+}
+
+.yed-type-display {
+  font-family: var(--font-cn);
+  font-size: var(--type-display-size);
+  line-height: var(--type-display-line);
+  letter-spacing: var(--tracking-title);
+  font-weight: 700;
+}
+
+.yed-type-script {
+  font-family: var(--font-script);
+  font-weight: 400;
+}
+
+.yed-type-price {
+  font-family: var(--font-price);
+  font-variant-numeric: oldstyle-nums;
+}

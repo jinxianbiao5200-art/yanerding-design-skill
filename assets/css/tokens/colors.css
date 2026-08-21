@@ -1,0 +1,41 @@
+:root {
+  --burgundy-950: #1a0608;
+  --burgundy-900: #2a0810;
+  --burgundy-800: #3a0a10;
+  --burgundy-700: #5c1018;
+  --burgundy-600: #7a1a24;
+  --burgundy-500: #8b2030;
+
+  --gold-100: #fffaf3;
+  --gold-200: #ecd09a;
+  --gold-300: #dfc08a;
+  --gold-400: #c9a96e;
+  --gold-500: #a8884e;
+  --gold-600: #8a7040;
+
+  --status-success: #5a8c6f;
+  --status-warning: #b8943a;
+  --status-danger: #c44040;
+  --status-info: #9a8a6a;
+
+  --line-1: rgba(201, 169, 110, 0.08);
+  --line-2: rgba(201, 169, 110, 0.16);
+  --line-3: rgba(201, 169, 110, 0.34);
+  --line-4: rgba(201, 169, 110, 0.58);
+
+  --surface-page: var(--burgundy-700);
+  --surface-deep: var(--burgundy-800);
+  --surface-deepest: var(--burgundy-900);
+  --surface-card: rgba(201, 169, 110, 0.035);
+  --surface-card-hover: rgba(201, 169, 110, 0.075);
+  --surface-light: #fbf6ec;
+
+  --text-primary: var(--gold-300);
+  --text-strong: var(--gold-200);
+  --text-muted: var(--gold-500);
+  --text-disabled: var(--gold-600);
+  --text-inverse: var(--burgundy-800);
+  --accent: var(--gold-400);
+  --accent-hover: var(--gold-300);
+  --accent-pressed: var(--gold-500);
+}

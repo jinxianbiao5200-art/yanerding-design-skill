@@ -1,0 +1,7 @@
+interface:
+  display_name: "言二丁品牌设计"
+  short_description: "将界面、网页和品牌物料转化为言二丁酒红金精品视觉风格"
+  icon_small: "./assets/brand/badge.png"
+  icon_large: "./assets/brand/brandmark-lockup.png"
+  brand_color: "#5C1018"
+  default_prompt: "Use $yanerding-design to create a refined Yan Er Ding branded interface from this brief."
