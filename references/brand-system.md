@@ -29,27 +29,28 @@ Use burgundy as the dominant field and champagne gold for type, rules, controls,
 
 | Role | Token | Value |
 |---|---|---|
-| Immersive background | `burgundy-950` | `#1a0608` |
-| Footer / overlay | `burgundy-900` | `#2a0810` |
+| Immersive background | `burgundy-950` | `#1e0605` |
+| Footer / overlay | `burgundy-900` | `#28090c` |
 | Header / sidebar / deep surface | `burgundy-800` | `#3a0a10` |
-| Main page field | `burgundy-700` | `#5c1018` |
-| Hover / raised field | `burgundy-600` | `#7a1a24` |
-| Active state | `burgundy-500` | `#8b2030` |
-| Strong title | `gold-200` | `#ecd09a` |
-| Primary text / hover | `gold-300` | `#dfc08a` |
-| Default accent / rule | `gold-400` | `#c9a96e` |
-| Muted text | `gold-500` | `#a8884e` |
-| Disabled / placeholder | `gold-600` | `#8a7040` |
+| Main page field | `burgundy-700` | `#431014` |
+| Hover / raised field | `burgundy-600` | `#51141b` |
+| Active state | `burgundy-500` | `#591e23` |
+| Strong title | `gold-200` | `#c69c79` |
+| Primary text / hover | `gold-300` | `#c69c79` |
+| Default accent / button / selected | `gold-400` | `#c69c79` |
+| Muted text | `gold-500` | `#b39172` |
+| Disabled / placeholder | `gold-600` | `#a08369` |
+| Logo, icons, gold rules | `gold-mark` | `#ac8461` |
 | Light paper, print only | `surface-light` | `#fbf6ec` |
 
-Gold rules use `rgba(201, 169, 110, 0.08)` through `rgba(201, 169, 110, 0.58)`. Shadows should carry a burgundy cast rather than pure black.
+Gold has two tiers (since 2026-10-28, same as the WeChat mini program, the website and cc-design): text and buttons use the lifted `gold-200`–`600`; logo, icons and gold rules stay on `gold-mark` `#ac8461`, one step darker. Do not lift icons or the logo to text gold, and do not drop text back to `gold-mark`. Gold rules use `rgba(172, 132, 97, 0.08)` through `rgba(172, 132, 97, 0.58)`. Shadows should carry a burgundy cast rather than pure black.
 
 Semantic colors are exceptions, not palette extensions:
 
 - Success `#5a8c6f`
-- Warning `#b8943a`
-- Danger `#c44040`
-- Info `#9a8a6a`
+- Warning `#997556`
+- Danger `#b34940`
+- Info `#8d6c4f`
 
 Use them only for genuine states, at restrained area and saturation. Do not use them decoratively.
 
