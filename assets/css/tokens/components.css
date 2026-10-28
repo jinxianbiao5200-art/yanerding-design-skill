@@ -80,7 +80,7 @@ body {
 }
 
 .yed-button--secondary:hover {
-  background: rgba(201, 169, 110, 0.08);
+  background: rgba(172, 132, 97, 0.08);
   border-color: var(--gold-300);
   color: var(--text-strong);
 }
@@ -119,7 +119,7 @@ body {
   min-height: 44px;
   border: 1px solid var(--line-2);
   border-radius: var(--radius-sm);
-  background: rgba(42, 8, 16, 0.42);
+  background: rgba(40, 9, 12, 0.42);
   color: var(--text-primary);
   font-family: var(--font-cn);
   font-size: 14px;
@@ -133,7 +133,7 @@ body {
 
 .yed-input:focus {
   border-color: var(--line-4);
-  background: rgba(42, 8, 16, 0.68);
+  background: rgba(40, 9, 12, 0.68);
 }
 
 .yed-tag {
