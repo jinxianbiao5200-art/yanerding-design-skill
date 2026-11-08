@@ -12,8 +12,10 @@
   --gold-400: #c69c79;
   --gold-500: #b39172;
   --gold-600: #a08369;
-  /* Logo, icons and gold rules: one step darker than text gold, never lifted with it */
+  /* Icons and gold rules: one step darker than text gold, never lifted with it */
   --gold-mark: #ac8461;
+  /* Gold logo (wordmark, badges): same value as text gold since 2026-11-08; fixed, it does not follow the screen scale */
+  --logo-gold: #c69c79;
 
   --status-success: #5a8c6f;
   --status-warning: #997556;

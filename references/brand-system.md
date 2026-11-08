@@ -40,10 +40,11 @@ Use burgundy as the dominant field and champagne gold for type, rules, controls,
 | Default accent / button / selected | `gold-400` | `#c69c79` |
 | Muted text | `gold-500` | `#b39172` |
 | Disabled / placeholder | `gold-600` | `#a08369` |
-| Logo, icons, gold rules | `gold-mark` | `#ac8461` |
+| Icons, gold rules | `gold-mark` | `#ac8461` |
+| Gold logo (wordmark, badges) | `logo-gold` | `#c69c79` (print CMYK 17 36 51 2) |
 | Light paper, print only | `surface-light` | `#fbf6ec` |
 
-Gold has two tiers (since 2026-10-28, same as the WeChat mini program, the website and cc-design): text and buttons use the lifted `gold-200`–`600`; logo, icons and gold rules stay on `gold-mark` `#ac8461`, one step darker. Do not lift icons or the logo to text gold, and do not drop text back to `gold-mark`. Gold rules use `rgba(172, 132, 97, 0.08)` through `rgba(172, 132, 97, 0.58)`. Shadows should carry a burgundy cast rather than pure black.
+Gold has two tiers (since 2026-10-28, same as the WeChat mini program, the website and cc-design): text, buttons and the gold logo use the lifted text gold (`gold-200`–`600`; the logo uses `logo-gold` `#c69c79`, the same value, since 2026-11-08); icons and gold rules stay on `gold-mark` `#ac8461`, one step darker. Do not lift icons or gold rules to text gold, and do not drop text or the logo back to `gold-mark`. Exception: the WeChat mini program keeps all of its current colors, including its in-app logo at `#ac8461`; never restyle the mini program to follow this rule. Gold rules use `rgba(172, 132, 97, 0.08)` through `rgba(172, 132, 97, 0.58)`. Shadows should carry a burgundy cast rather than pure black.
 
 Semantic colors are exceptions, not palette extensions:
 
